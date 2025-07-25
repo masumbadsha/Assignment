@@ -1,0 +1,147 @@
+
+.noto-serif{
+  font-family: "Noto Serif", serif;
+}
+
+.inter{
+  font-family: "Inter", sans-serif;
+}
+footer div img{
+  width: 30px;
+  height: 30px;
+}
+.hide{
+  display: none;
+}
+@media screen and (max-width: 430px) {
+      body{
+       max-width: 393px;
+      }
+    .starting-section{
+      flex-direction: column-reverse;
+     width: 100%;
+    }
+    .starting-text{
+      width:361px ;
+      padding-right: 16px;
+      padding-left: 16px;
+    }
+    .starting-title, .card-title{
+      font-size: 24px;
+      
+    }
+    .starting-discription, .card-discription{
+      font-size: 14px;
+    }
+    .line-break{
+      display: none;
+    }
+    .starting-image{
+     width: 410px;
+    }
+    .card-text{
+      width: 430px;
+      padding-right: 25px;
+
+    }
+    .card-discription{
+      font: 14px;
+      width: 370px;
+    }
+    .card-container{
+      grid-template-columns: repeat(2, 1fr);
+      width: 425px;
+      padding-left: 5px ;
+    }
+    .card{
+      width: 171px;
+      height: 340px;
+       margin-bottom: 20px;
+    }
+    .card-name, .card-price{
+      font-size: 16px;
+      margin: 5px;
+    }
+    .card-button{
+      width: 171px;
+      height: 50px;
+      padding-top:20px ;
+      padding-bottom:20px ;
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+    .badge{
+      display: none;
+      position: absolute;
+      left: 150px;
+      top: 2250px;
+    }
+    .plant-lover{
+      flex-direction: column;
+    }
+    .plant-lover-image{
+      width: 392px;
+      padding: 5px;
+      margin-top: 40px;
+    }
+    .plant-lover-text{
+      width: 361px;
+      margin-left: 25px;
+    }
+    .plant-lover-title{
+      font-size: 24px;
+    }
+    .plant-lover-discription{
+        font-size: 14px;
+    }
+    .latest-text{
+      width: 430px;
+      margin-top: 10px;
+    }
+  .latest-title{
+    font-size: 24px;
+  }
+  .latest-discription{
+    width: 336px;
+    font-size: 15px;
+    margin-left: 25px;
+  }
+  .latest-image{
+    flex-direction: column;
+  }
+  .latest-exception-image{
+    width: 376px;
+    height: 201px;
+  }
+  .latest-exception-text{
+    font-size: 20px;
+  }
+  .latest-exception-button{
+    font-size: 16px;
+  }
+  .joining-section{
+    width:400px;
+    height: 275px;
+  }
+  .joining-title{
+    font-size: 20px;
+  }
+  .joining-area{
+    width: 200px;
+  }
+  .joining-btn{
+    width: 140px;
+      height: 50px;
+      padding-top:10px ;
+      padding-bottom:10px ;
+      padding-left: 30px;
+      padding-right: 30px;
+  }
+  .footer-container{
+    margin: 0;
+    margin-top: 30px;
+    padding-left: 10px;
+    flex-direction: column;
+    gap: 20px;
+  }
+  }
