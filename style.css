@@ -1,5 +1,4 @@
 
-
 .noto-serif{
   font-family: "Noto Serif", serif;
 }
@@ -11,7 +10,7 @@ footer div img{
   width: 30px;
   height: 30px;
 }
-.hide{
+.for-mobile{
   display: none;
 }
 @media screen and (max-width: 430px) {
@@ -65,7 +64,7 @@ footer div img{
       display: none;
     }
     .starting-image{
-     width: 410px;
+     width: 400px;
     }
     .card-text{
       width: 430px;
@@ -173,4 +172,3 @@ footer div img{
     gap: 20px;
   }
   }
-
